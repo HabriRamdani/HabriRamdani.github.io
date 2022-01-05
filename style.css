@@ -226,6 +226,7 @@
     color: #05a100;
     width: 100%;
     transition: 0.3s ease;
+    border-bottom: 5px solid #05a100;
 }
 
 
@@ -255,7 +256,7 @@
     margin: 150px 200px 0 0;
     border: 5px solid #54f23b;
     box-shadow: 0px 30px 10px -20px rgba(0, 0, 0, .75);
-    transition: .5s;
+    transition: .3s;
     border-radius: 65px;
     overflow: hidden;
 }
@@ -267,7 +268,7 @@
 .hero:hover {
     box-shadow: 0px 80px 10px -40px rgba(0, 0, 0, .15);
     margin-top: 80px;
-    transform: scale(1.1);
+    transform: scale(1.2);
 }
 
 .footer p {
@@ -287,7 +288,7 @@
     .hero {
         width: 100px;
         height: 100px;
-        margin: 20px 160px 5px 10px;
+        margin: 20px 120px 0px 10px;
     }
     .hero:hover {
         margin-top: 5px;
@@ -303,9 +304,12 @@
     .navbar ul li {
         width: 20px;
         height: 18px;
-        display: inline-block;
+        display: block;
         margin: 0 20px 5px 20px;
         padding-left: 10px;
+    }
+    .navbar ul li a.active {
+        border-bottom: none;
     }
     .navbar ul li a {
         font-size: 17px;
