@@ -234,6 +234,7 @@
     color: #05a100;
     width: 100%;
     transition: 0.3s ease;
+    border-bottom: 5px solid #05a100;
 }
 
 .footer p {
@@ -299,6 +300,9 @@
     }
     .navbar ul li a {
         font-size: 17px;
+    }
+    .navbar ul li a.active {
+        border-bottom: none;
     }
     .card .satu {
         width: 320px;
