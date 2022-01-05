@@ -300,18 +300,26 @@
 
 /* Responsive Mobile */
 @media (max-width:500px) {
+    .glass {
+        height: 630px;
+        width: 360px;
+    }
     .card .satu {
         margin: 40px auto;
-        width: 350px;
+        width: 325px;
         height: 220px;
     }
     .boxinfo .info1 {
-        width: 350px;
+        width: 325px;
         height: 205px;
         margin: -30px auto;
         }
     .boxinfo .info1:hover {
         margin-top: -30px;
+        transform: none;
+    }
+    .boxinfo .info2 {
+        none
     }
     .back p {
         margin-top: 40px;
