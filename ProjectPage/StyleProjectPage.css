@@ -226,6 +226,7 @@
     color: #05a100;
     width: 100%;
     transition: 0.3s ease;
+    border-bottom: 5px solid #05a100;
 }
 
 /* Card For Project */
@@ -295,7 +296,7 @@
     border: 2px solid transparent;
     background-clip: padding-box;
     line-height: 1.5;
-    transition: .5s;
+    transition: .3s;
 }
 .boxinfo .info2 {
     width: 560px;
@@ -308,7 +309,7 @@
     border: 2px solid transparent;
     background-clip: padding-box;
     line-height: 1.5;
-    transition: .5s;
+    transition: .3s;
 }
 .boxinfo p {
     font-size: 14px;
@@ -357,7 +358,16 @@
     }
     .glass {
         height: 1100px;
-        width: 400px;
+        width: 360px;
+    }
+    .navbar ul li {
+        width: 60px;
+        float: left;
+        margin-right: 0px;
+        list-style: none;
+    }
+    .navbar ul li a.active {
+        border-bottom: none;
     }
     .boxinfo h3 {
         font-size: 17px;
@@ -366,37 +376,37 @@
         font-size: 15px;
     }
     .card .satu {
-        margin: -25px auto;
-        width: 350px;
-        height: 220px;
+        margin: -5px auto;
+        width: 325px;
+        height: 195px;
     }
     .card .dua {
         margin: 300px auto;
-        width: 350px;
-        height: 220px;
+        width: 325px;
+        height: 196px;
     }
     .boxinfo .info1 {
-    width: 350px;
-    height: 205px;
-    margin: -785px auto;
+        width: 325px;
+        height: 220px;
+        margin: -780px auto;
+    }
+    .boxinfo .info2 {
+        width: 325px;
+        height: 220px;
+        margin: 1050px auto;
     }
     .boxinfo .info1:hover {
         margin-top: -785px;
-    }
-    .boxinfo .info2 {
-        width: 350px;
-        height: 205px;
-        margin: 1075px auto;
+        transform: none;
     }
     .boxinfo .info2:hover {
-        margin-top: 1075px;
+        margin-top: 1050px;
+        transform: none;
     }
     .more p {
         width: 80px;
-        margin: -1040px 0px 0px 300px;
+        margin: -1030px 0px 0px 270px;
     }
     .footer p {
-        width: inherit;
-        height: inherit;
-    }
+        margin: 1000px;
 }
