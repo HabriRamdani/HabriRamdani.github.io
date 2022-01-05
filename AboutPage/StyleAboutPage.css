@@ -282,20 +282,21 @@
         height: 1050px;
     }
     .glass {
-        width: 400px;
+        width: 360px;
         height: 1000px;
     }
     .navbar ul li {
         width: 50px;
         height: 20px;
-        display: inline-block;
+        display: block;
+        margin-right: 10px;
     }
     .navbar ul li a {
         font-size: 17px;
     }
     .card .satu {
-        width: 350px;
-        height: 800px;
+        width: 330px;
+        height: 850px;
         margin: auto;
     }
     .card .satu h1 {
