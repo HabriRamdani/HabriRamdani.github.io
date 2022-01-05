@@ -294,14 +294,15 @@
     .navbar ul li {
         width: 50px;
         height: 20px;
-        display: inline-block;
+        display: block;
+        margin-right: 10px;
     }
     .navbar ul li a {
         font-size: 17px;
     }
     .card .satu {
-        width: 350px;
-        height: 540px;
+        width: 320px;
+        height: 480px;
         margin: auto;
     }
     .card .satu h1 {
@@ -310,15 +311,17 @@
     }
     .card .satu ul li {
         margin-left: 15px;
+        font-size: 15px;
     }
     .card .satu ul li a {
         margin-left: -1px;
+        font-size: 14px;
     }
     .card .satu p {
         margin-left: 12px;
     }
     .card .satu h2 {
         font-size: 200px;
-        margin: -30px 0px 0px 150px;
+        margin: -30px 0px 0px 130px;
     }
 }
