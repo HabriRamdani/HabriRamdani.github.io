@@ -23,7 +23,7 @@
     background: linear-gradient(to right bottom, rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.3));
     border-radius: 2rem;
     z-index: 99;
-    backdrop-filter: blur(1rem);
+    backdrop-filter: blur(.6rem);
 }
 
 .circle1,
@@ -242,6 +242,7 @@
 
 .heading p {
     padding: 0 700px 0 60px;
+    line-height: 20px;
 }
 
 .heading a {
@@ -256,7 +257,7 @@
     margin: 150px 200px 0 0;
     border: 5px solid #54f23b;
     box-shadow: 0px 30px 10px -20px rgba(0, 0, 0, .75);
-    transition: .3s;
+    transition: .5s;
     border-radius: 65px;
     overflow: hidden;
 }
@@ -267,7 +268,7 @@
 
 .hero:hover {
     box-shadow: 0px 80px 10px -40px rgba(0, 0, 0, .15);
-    margin-top: 80px;
+    margin-top: 90px;
     transform: scale(1.2);
 }
 
