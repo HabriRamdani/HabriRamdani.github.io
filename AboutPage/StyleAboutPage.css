@@ -23,7 +23,7 @@
     background: linear-gradient(to right bottom, rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.3));
     border-radius: 2rem;
     z-index: 99;
-    backdrop-filter: blur(1rem);
+    backdrop-filter: blur(.6rem);
 }
 
 .circle1,
@@ -253,20 +253,13 @@
     color: #012000;
 }
 .card .satu p {
-    margin: 0px 320px 0px 40px; 
+    margin: 0px 40px 0px 40px; 
     color: #012000;
     text-indent: 50px;
+    line-height: 32px;
 }
 .card .satu p span {
     font-size: 20px;
-}
-.card .image {
-    width: 256px;
-    height: 256px;
-    border-radius: 20px;
-    background-image: url(airterjun.jpg);
-    box-shadow: 10px 10px 10px rgba(45,55,68,.3);
-    margin: -290px 100px 0 900px;
 }
 .footer p {
     font-size: 14px;
@@ -308,6 +301,7 @@
     }
     .card .satu p {
         margin: 0 10px 0 15px;
+        line-height: inherit;
     }
     .footer p {
         bottom: -2%;
