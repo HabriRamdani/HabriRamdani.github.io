@@ -23,7 +23,7 @@
     background: linear-gradient(to right bottom, rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.3));
     border-radius: 2rem;
     z-index: 99;
-    backdrop-filter: blur(1rem);
+    backdrop-filter: blur(.6rem);
 }
 
 .circle1,
@@ -270,14 +270,14 @@
 .boxinfo .info1:hover {
     box-shadow: 0px 80px 10px -40px rgba(0, 0, 0, .15);
     margin-top: -10px;
-    transform: scale(1.2);
+    transform: scale(1.1);
     background-color: #54f23b;
     border: 3px solid #012000;
 }
 .boxinfo .info2:hover {
     box-shadow: 0px 80px 10px -40px rgba(0, 0, 0, .15);
     margin-top: -140px;
-    transform: scale(1.2);
+    transform: scale(1.1);
     background-color: #54f23b;
     border: 3px solid #012000;
 }
